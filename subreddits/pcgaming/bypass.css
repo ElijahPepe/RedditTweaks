@@ -19,8 +19,8 @@
         top: 90px;
     }
     
-    /* TODO: Improve this */
-    #thing_t3_ne4f45{
+    /* TODO: Improve this: this Regex-esque CSS selector may work for now but affects all self-posts containing "giveaway", "enter", and "win". Targetting only stickied posts is best as the only stickied posts are weekly threads, giveaways, and AMAs. */
+    div[data-url*="win"], div[data-url*="enter"], div[data-url*="giveaway"] {
         display: none;
     }
     
