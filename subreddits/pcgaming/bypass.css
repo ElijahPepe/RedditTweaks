@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        /r/PCGaming Bypass
 @namespace   ElijahPepe
-@version     1.0.2
+@version     1.0.3
 @homepageURL https://github.com/ElijahPepe/reddittweaks
 @updateURL   https://elijahpepe.github.io/reddittweaks/subreddits/pcgaming/bypass.css
 @license     BSD-2-Clause
@@ -19,8 +19,7 @@
         top: 90px;
     }
     
-    /* TODO: Improve this: this Regex-esque CSS selector may work for now but affects all self-posts containing "giveaway", "enter", and "win". Targetting only stickied posts is best as the only stickied posts are weekly threads, giveaways, and AMAs. */
-    div[data-url*="win"], div[data-url*="enter"], div[data-url*="giveaway"] {
+    div.stickied[data-url*="win"], div.stickied[data-url*="enter"], div.stickied[data-url*="giveaway"] {
         display: none;
     }
     
