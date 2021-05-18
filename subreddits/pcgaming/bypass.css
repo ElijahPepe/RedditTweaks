@@ -1,0 +1,24 @@
+/* Intended to be the "one size fits all" for this subreddit's moderators and their disrespect towards members of their community */
+
+#header {
+    background:#333b4a;
+    border-bottom:1px solid #E9E9E9;
+    height:89px
+}
+
+.side h6:nth-of-type(1) {
+    top: 90px;
+}
+
+/* TODO: Improve this */
+#thing_t3_ne4f45{
+    display: none;
+}
+
+#header-bottom-left {
+    bottom: 30px;
+}
+
+#header-bottom-left .tabmenu {
+    bottom: -15px;
+}
