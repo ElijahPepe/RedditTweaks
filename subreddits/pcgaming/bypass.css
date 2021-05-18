@@ -1,4 +1,12 @@
-/* Intended to be the "one size fits all" for this subreddit's moderators and their disrespect towards members of their community */
+/* ==UserStyle==
+@name        /r/PCGaming Bypass
+@namespace   ElijahPepe
+@version     1.0.1
+@homepageURL https://github.com/ElijahPepe/reddittweaks
+@updateURL   https://elijahpepe.github.io/reddittweaks/pcgaming/bypass.css
+@license     BSD-2-Clause
+@author      ElijahPepe
+==/UserStyle== */
 
 #header {
     background:#333b4a;
