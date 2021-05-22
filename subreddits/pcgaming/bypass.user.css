@@ -31,3 +31,27 @@
         bottom: -15px;
     }
 }
+
+@-moz-document url-prefix("https://old.reddit.com/r/pcgaming/") {
+    #header {
+        background:#333b4a;
+        border-bottom:1px solid #E9E9E9;
+        height:89px
+    }
+    
+    .side h6:nth-of-type(1) {
+        top: 90px;
+    }
+    
+    div.stickied[data-url*="win"], div.stickied[data-url*="enter"], div.stickied[data-url*="giveaway"] {
+        display: none;
+    }
+    
+    #header-bottom-left {
+        bottom: 30px;
+    }
+
+    #header-bottom-left .tabmenu {
+        bottom: -15px;
+    }
+}
