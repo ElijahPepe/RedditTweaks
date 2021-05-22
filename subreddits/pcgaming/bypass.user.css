@@ -30,6 +30,14 @@
     #header-bottom-left .tabmenu {
         bottom: -15px;
     }
+
+    .sidebox.submit {
+        top: 112px;
+    }
+
+    .submit-page .submit_text {
+        top: 145px;
+    }
 }
 
 @-moz-document url-prefix("https://old.reddit.com/r/pcgaming/") {
@@ -53,5 +61,13 @@
 
     #header-bottom-left .tabmenu {
         bottom: -15px;
+    }
+
+    .sidebox.submit {
+        top: 145px;
+    }
+
+    .submit-page .submit_text {
+        top: 145px;
     }
 }
