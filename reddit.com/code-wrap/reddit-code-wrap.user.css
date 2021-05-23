@@ -1,0 +1,19 @@
+/* ==UserStyle==
+@name         Reddit Code Wrap
+@version      1.0.0
+@description  Userstyle to wrap long code lines on Reddit
+@namespace    ElijahPepe
+@author       ElijahPepe
+@homepageURL  https://github.com/ElijahPepe/reddittweaks
+@supportURL   https://github.com/ElijahPepe/reddittweaks/issues
+@updateURL    https://elijahpepe.github.io/reddittweaks/reddit.com/code-wrap/reddit-code-wrap.user.css
+@license      CC-BY-SA-4.0
+@preprocessor uso
+==/UserStyle== */
+@-moz-document domain("www.reddit.com") {
+  .md pre > code {
+    white-space: pre-wrap !important;
+    word-break: break-all !important;
+    overflow-wrap: break-word !important;
+  }
+}
