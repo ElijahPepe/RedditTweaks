@@ -1,0 +1,1 @@
+reddit.com##.thing:has(.entry > .tagline > .author > .rst-banned-scammer)

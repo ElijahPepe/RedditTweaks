@@ -1,0 +1,28 @@
+! Block Reddit premium banner.
+www.reddit.com##.premium-banner
+
+! Block inline GIFs in comments.
+www.reddit.com##.comment:has(> .entry .usertext-body .md a[href^="https://giphy"] > img)
+www.reddit.com##.comment:has(> .entry .usertext-body .md p > img)
+
+! Block "Happening Now" banner.
+www.reddit.com##.happening-now
+
+! Remove "Free coins!", as if I respect dopamine spikes.
+new.reddit.com##._1dJtiWITrnvIbQdXgYgdym.jEUbSHJJx8vISKpWirlfx
+new.reddit.com##.scrollerItem.hrQ5rXDbyl6t3TIXxENXB._3Qkp11fjcAw9I9wtLo8frE._1EG7_Cm18ANvUvJ4rJdRgQ
+
+! Remove RPAN videos on new Reddit.
+new.reddit.com##._2aNPePbQCJ2-xyqF693-oh
+new.reddit.com##._25K6Ujp7eqOAHEdYuHm3pY
+new.reddit.com##.A8CAQWacAEq_Pwee5F5IZ > video
+new.reddit.com##.A8CAQWacAEq_Pwee5F5IZ
+
+! Remove suggested Reddits on new Reddit.
+new.reddit.com##._39yVNiqPz4VPgNZTlpA5fx._3rsj8PUqTkCf6pe9416Gyy._3ecQI6Cj7AUan8ODNedckX
+
+! Remove Reddit's presence circle
+www.reddit.com##.presence_circle
+
+! Block cookie notice.
+www.reddit.com##.cookie-infobar.with-btn.with-icon.md-container-small.reddit-infobar
